@@ -4,12 +4,12 @@ import "fmt"
 
 type dark int
 
-var x dark
+var a dark
 
 func main() {
-	fmt.Println(x)
+	fmt.Println(a)
 	fmt.Printf("%T\n", x)
-	x = 42
-	fmt.Println(x)
+	a = 42
+	fmt.Println(a)
 
 }

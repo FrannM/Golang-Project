@@ -2,18 +2,18 @@ package main
 
 import "fmt"
 
-type dark int
+type num int
 
-var x dark
-var y int
+var b num
+var c int
 
 func main() {
-	fmt.Println(x)
+	fmt.Println(b)
 	fmt.Printf("%T\n", x)
-	x = 42
-	fmt.Println(x)
-	y = int(x)
-	fmt.Println(y)
+	b = 42
+	fmt.Println(b)
+	c = int(b)
+	fmt.Println(c)
 	fmt.Printf("%T\n", y)
 
 }
